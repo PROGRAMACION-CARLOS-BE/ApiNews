@@ -3,6 +3,7 @@ const { Category } = require('../Models/CategoryModel')
 const { State } = require('../Models/StateModel')
 const { User } = require('../Models/UserModel')
 const { Profile } = require('../Models/ProfileModel')
+//comentarios
 
 const relationsUser = [
     { model: Profile, attributes: ['id', 'nombre'], as: 'perfil' }
