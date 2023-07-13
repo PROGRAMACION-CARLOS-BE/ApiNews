@@ -1,4 +1,4 @@
-const { New } = require('../models/NewModel')
+const { New } = require('../Models/NewModel')
 const { Category } = require('../Models/CategoryModel')
 const { State } = require('../Models/StateModel')
 const { User } = require('../Models/UserModel')
