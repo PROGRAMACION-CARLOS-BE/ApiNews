@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { get, getById, create, update, destroy } = require('../controllers/NewController');
+const { get, getById, create, update, destroy } = require('../Controllers/NewController');
 const { validatorNewCreate, validatorNewUpdate } = require('../Validators/NewValidator');
 const { authenticateAdmin, authenticateAny } = require('../Middlewares/jwt')
 

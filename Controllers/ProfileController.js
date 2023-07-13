@@ -1,4 +1,4 @@
-const { Profile } = require('../models/ProfileModel')
+const { Profile } = require('../Models/ProfileModel')
 
 
 const get = (request, response) => {

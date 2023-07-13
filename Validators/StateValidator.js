@@ -1,5 +1,5 @@
 const { check } = require('express-validator');
-const { State } = require('../models/StateModel');
+const { State } = require('../Models/StateModel');
 
 const validatorStateRequire = [
     check('nombre').notEmpty().withMessage('El campo nombre es obligatorio')

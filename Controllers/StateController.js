@@ -1,4 +1,4 @@
-const { State } = require('../models/StateModel')
+const { State } = require('../Models/StateModel')
 const { validationResult } = require('express-validator');
 
 

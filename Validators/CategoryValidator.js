@@ -1,5 +1,5 @@
 const { check } = require('express-validator');
-const { Category } = require('../models/CategoryModel');
+const { Category } = require('../Models/CategoryModel');
 
 const validatorCategoryCreate = [
     check('nombre').notEmpty().withMessage('El campo nombre es obligatorio')

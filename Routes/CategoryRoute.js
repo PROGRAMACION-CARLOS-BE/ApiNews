@@ -1,6 +1,6 @@
 var express = require('express');
 
-const {get, getById, create, update, destroy}  = require('../controllers/CategoryController');
+const {get, getById, create, update, destroy}  = require('../Controllers/CategoryController');
 const { validatorCategoryCreate, validatorCategoryUpdate } = require('../Validators/CategoryValidator');
 const { authenticateAdmin } = require('../Middlewares/jwt')
 

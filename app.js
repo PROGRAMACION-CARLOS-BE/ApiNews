@@ -9,11 +9,11 @@ app.use(express.json({limit: '50mb'}))
 
 //Exportar Rutas
 const profile_routes = require('./Routes/ProfileRoute');
-const state_routes = require('./routes/StateRoute');
-const category_routes = require('./routes/CategoryRoute');
-const new_routes = require('./routes/NewRoute');
-const user_routes = require('./routes/UserRoute');
-const auth_routes = require('./routes/AuthRoute');
+const state_routes = require('./Routes/StateRoute');
+const category_routes = require('./Routes/CategoryRoute');
+const new_routes = require('./Routes/NewRoute');
+const user_routes = require('./Routes/UserRoute');
+const auth_routes = require('./Routes/AuthRoute');
 
 
 

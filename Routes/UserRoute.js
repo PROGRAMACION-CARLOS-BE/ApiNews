@@ -1,7 +1,7 @@
 var express = require('express');
 
-const { get, getById, create, update, destroy } = require('../controllers/UserController');
-const { validatorUserCreate, validatorUserUpdate } = require('../validators/UserValidator');
+const { get, getById, create, update, destroy } = require('../Controllers/UserController');
+const { validatorUserCreate, validatorUserUpdate } = require('../Validators/UserValidator');
 const { authenticateAdmin } = require('../Middlewares/jwt')
 
 

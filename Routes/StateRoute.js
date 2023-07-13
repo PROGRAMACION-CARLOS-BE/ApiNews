@@ -1,8 +1,8 @@
 var express = require('express');
 
 
-const {get, getById, create, update, destroy}  = require('../controllers/StateController');
-const {validatorStateRequire, validatorStateOptional} = require('../validators/StateValidator')
+const {get, getById, create, update, destroy}  = require('../Controllers/StateController');
+const {validatorStateRequire, validatorStateOptional} = require('../Validators/StateValidator')
 const { authenticateAdmin } = require('../Middlewares/jwt')
 
 const api = express.Router();

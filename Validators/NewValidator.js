@@ -1,7 +1,7 @@
 const { check } = require('express-validator');
-const { Category } = require('../models/CategoryModel');
-const { User } = require('../models/UserModel');
-const { State } = require('../models/StateModel');
+const { Category } = require('../Models/CategoryModel');
+const { User } = require('../Models/UserModel');
+const { State } = require('../Models/StateModel');
 
 const validatorNewCreate = [
     check('categoria_id').notEmpty().withMessage('El campo categoria_id es obligatorio').isInt().withMessage('El campo categoria_id debe ser un numero entero')

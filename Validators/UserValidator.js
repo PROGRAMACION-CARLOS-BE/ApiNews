@@ -1,6 +1,6 @@
 const { check } = require('express-validator');
-const { User } = require('../models/UserModel');
-const { Profile } = require('../models/ProfileModel');
+const { User } = require('../Models/UserModel');
+const { Profile } = require('../Models/ProfileModel');
 
 const validatorUserCreate = [
     check('nombre').notEmpty().withMessage('El campo nombre es obligatorio')

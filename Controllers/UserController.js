@@ -1,5 +1,5 @@
 const { User } = require('../models/UserModel')
-const { Profile } = require('../models/ProfileModel')
+const { Profile } = require('../Models/ProfileModel')
 
 const relations = [
     { model: Profile, attributes: ['id', 'nombre'], as: 'perfil' }

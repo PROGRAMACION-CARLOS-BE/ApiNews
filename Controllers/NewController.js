@@ -1,8 +1,8 @@
 const { New } = require('../models/NewModel')
-const { Category } = require('../models/CategoryModel')
-const { State } = require('../models/StateModel')
-const { User } = require('../models/UserModel')
-const { Profile } = require('../models/ProfileModel')
+const { Category } = require('../Models/CategoryModel')
+const { State } = require('../Models/StateModel')
+const { User } = require('../Models/UserModel')
+const { Profile } = require('../Models/ProfileModel')
 
 const relationsUser = [
     { model: Profile, attributes: ['id', 'nombre'], as: 'perfil' }
