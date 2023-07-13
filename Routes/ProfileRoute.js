@@ -1,7 +1,7 @@
 var express = require('express');
 
-const {get, getById, }  = require('../controllers/ProfileController');
-const { authenticateAdmin } = require('../Middlewares/jwt')
+const {get, getById, }  = require('../Controllers/ProfileController');
+
 
 
 const api = express.Router();
